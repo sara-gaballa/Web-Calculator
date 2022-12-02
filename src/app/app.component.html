@@ -1,0 +1,39 @@
+<header>
+  <h1>Sara_Mahmoud_20010652</h1>
+</header>
+<div class="calc-body">
+  <!-- Calculator Display Screen -->
+  <div class="calc-screen">
+      <div id="calc-operation">{{temp}}</div>
+      <div id="calc-typed">{{result}}</div>
+  </div>
+  <!-- Calculator Buttons -->
+  <div class="calc-button-row">
+      <!--<button class="ac">AC</button>-->
+      <button (click)="clickFunction('%')" class="opt">&#37;</button>
+      <button (click)="clickFunction('ce')" class="opt">&#67;&#69;</button>
+      <button (click)="clickFunction('c')" class="opt">&#67;</button>
+      <button (click)="clickFunction('del')" >␡</button>
+      <button (click)="clickFunction('⅟')" >1/x</button>
+      <button (click)="clickFunction('²')" >x²</button>
+      <button (click)="clickFunction('√')">√x</button>
+      <button  (click)="clickFunction('/')" class="opt">&#47;</button>
+      <button (click)="clickFunction('9')">9</button>
+      <button (click)="clickFunction('8')">8</button>
+      <button (click)="clickFunction('7')">7</button>
+      <button (click)="clickFunction('×')" class="opt">×</button>
+      <button (click)="clickFunction('4')">4</button>
+      <button (click)="clickFunction('5')">5</button>
+      <button (click)="clickFunction('6')">6</button>
+      <button (click)="clickFunction('-')"class="opt">&#8722;</button>
+      <button (click)="clickFunction('1')">1</button>
+      <button (click)="clickFunction('2')">2</button>
+      <button (click)="clickFunction('3')">3</button>
+      <button (click)="clickFunction('+')" class="opt">&#43;</button>
+      <button (click)="clickFunction('±')">&#43;&#47;&#8722;</button>
+      <button (click)="clickFunction('0')">0</button>
+      <button (click)="clickFunction('.')">.</button>
+      <button (click)="clickFunction('=')" class="opt">&#61;</button>
+      
+  </div>
+  </div>
